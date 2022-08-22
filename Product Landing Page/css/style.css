@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    transition: 0.5s;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+}
+
+#header .logo img {
+    max-width: 300px;
+}
+
+#header .navbar ul {
+    display: flex;
+}
+
+#header .navbar ul li a {
+    margin: 0 3.5rem;
+    color: black;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#section h2 {
+    margin: 2rem 0;
+}
+
+#section input[type='email'] {
+    width: 100%;
+    padding: 0.25rem;
+}
+
+#section input[type='submit'] {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: #f1c40f;
+    border: 0;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#section input[type='submit']:hover {
+    background-color: #FFA500;
+}
+
+#features{
+    margin: 2rem 0;
+}
+#features .grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#features .grid .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #FF8C00;
+}
+
+#features .grid .desc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5rem;
+}
+
+#how-it-works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#how-it-works iframe{
+    margin: 0 2rem;
+}
+
+#pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+#pricing .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 3rem;
+    width: calc(100% / 3);
+    line-height: 2rem;
+    border: 1px solid black;
+}
+
+#pricing .card .navbar{
+    background-color: #DDDDDD;
+    width: 100%;
+}
+
+#pricing .card h2{
+    margin: 1rem 0;
+}
+
+#pricing .card button{
+    margin: 2rem 0;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0;
+    background-color: #f1c40f;
+}
+
+#pricing .card button:hover{
+    background-color: #F9B106;
+}
+
+.footer{
+    background-color: #DDDDDD;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0.5rem 0.5rem;
+}
+.footer ul a{
+    padding: 0 1rem;
+    color:black;
+}
+
+.footer span{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    color: #444;
+}
