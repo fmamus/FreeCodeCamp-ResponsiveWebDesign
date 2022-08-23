@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+    width: 17%;
+    height: 100vh;
+    background-color: antiquewhite;
+    border-right: 2px solid rgba(0, 22, 22, 0.4);;
+    overflow: hidden;
+    position: fixed;
+    list-style-type: none;
+}
+.sidebar h2{
+    text-align: center;
+    padding: .5rem;
+}
+.sidebar ul li{
+    border-top: 1px solid #4d4e53;
+    padding: .5rem 0;
+}
+.sidebar ul li a{
+    color: #4d4e53;
+    padding: 0 2rem;
+    text-decoration: none;
+}
+.main{
+    position: relative;
+    left: 17%;
+    height: 100vh;
+    width: 83%;
+    padding: 3rem;
+}
+.parag{
+    padding: 1rem;
+}
+.list{
+    padding: 1rem 3rem;
+}
+.list li{
+    margin-bottom: 1rem;
+}
+.code{
+    background-color: #F7F7F7;
+    padding: 1rem;
+    margin: 0 1.5rem;
+    font-size: .75rem;
+}
+.code p{
+    padding: .25rem 0;
+}
